@@ -42,7 +42,7 @@ public class GeoCodeController {
 
     /**
      * Retrieve all geocoded entries stored in database
-     * @return
+     * @return List of geocoded entities
      */
     @GetMapping(path = "/geocode/retrieve", produces = {"application/json"})
     public List<GeoCodeEntity> geoCodeAddress() {
